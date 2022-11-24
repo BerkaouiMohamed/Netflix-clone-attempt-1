@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 50px;
+  top: 0;
+}
+

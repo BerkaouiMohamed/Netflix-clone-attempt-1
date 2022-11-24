@@ -1,0 +1,25 @@
+.login {
+    width: 99vw;
+    height: 99vh;
+    background-image: url("../../assets/loginback.jpg");
+}
+
+.logo {
+    height: 40px;
+
+  }
+  
+
+.containerr{display: flex;
+flex-direction: column;
+padding-top: 5%;
+text-shadow: 2px 2px 5px wheat;
+font-weight: bold;}
+.topp {
+    padding: 20px 50px;
+    display: flex;
+ 
+}
+.signin{
+    padding-top:10%;
+}

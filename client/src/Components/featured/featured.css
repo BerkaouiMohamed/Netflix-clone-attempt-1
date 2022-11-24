@@ -1,0 +1,60 @@
+.featured{
+    
+}
+.back{
+    width: 99%;
+    position: relative;
+    height: 96vh;
+}
+.logo{height:max-content ;
+    width: 200%;
+margin:50px;}
+.info{
+    width: max-content;
+    height: max-content;
+position: absolute;
+left: 50px;
+bottom: 170px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.button{
+    display: flex
+;
+width: 100%;
+justify-content: center;
+}
+button{width: ;
+margin-right: 10px;
+cursor: pointer;}
+.play {
+    padding: 5px 5px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+}
+.infoi{
+    background-color:gray;
+    color: white;
+    padding: 5px 5px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.category{position: absolute;
+top: 150px;
+left: 150px;
+font-size: 30px;
+display: flex;
+z-index: 2;
+align-items: center;
+justify-content: center;}
+select{cursor: pointer;
+    padding: 2px;
+background-color: black;
+color: white;
+border: 2px solid;}

@@ -1,0 +1,96 @@
+.item1 {
+    width: 240px;
+    height: inherit;
+    padding: 5px;
+
+}
+
+.itemdisp {
+    position: relative;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.199);
+
+}
+
+.imgitem {
+    transition: transform 300ms;
+    cursor: pointer;
+}
+
+.imgitem:hover {
+    width: 300px;
+    position: absolute;
+    top: -30px;
+    transform: translateX(-20px) translateY(10px);
+
+    z-index: 200
+}
+
+.itemdispv{
+    width: 300px;
+    height: 170px;
+    background-color: black;
+    position: absolute
+    ;
+    z-index: 150;
+    display: none;
+    
+
+}
+.itemdisp{
+    width: 100%;
+    height: 140px;
+    
+    background-color: black
+
+    ;
+
+}
+
+.iconlist {
+    color: azure;
+    padding: 0 10px;
+}
+
+.filmdicription{
+    font-size: small;
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.filmdiscr {
+    display: none;
+    z-index: 420;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+
+
+.itemdisp:hover+.filmdiscr {
+    display: block;
+    position: absolute;
+    z-index: 201;
+    top: 98px;
+    left: 50px
+}
+.hover:hover+.filmdiscr {
+    display: block;
+    position: absolute;
+    z-index: 201;
+    top: 98px;
+    left: 50px
+}
+
+.filmdiscr:hover {
+    position: absolute;
+    display: block;
+    top: 98px;
+    left: 50px;
+
+}
+.filmname{ text-shadow: 2px 2px 3px white;
+background-color: rgba(255, 255, 255, 0.336) ;
+border-radius: 20px;
+box-shadow: 2px 2px 5px black;}
